@@ -1,3 +1,14 @@
 # Afanasyeva E V KNT 3
-a = int(input())
-b = int(input())
+a = int(input("Ввести число:"))
+b = int(input("Ввести число:"))
+c = input("Введите математическую операцию:")
+if c == '+':
+    print(a+b)
+elif c == '-':
+    print(a-b)
+elif c == '*':
+    print(a*b)
+elif c == '/':
+    print(a/b)
+else:
+    print('Такой операции не существует')
